@@ -1,0 +1,51 @@
+<div>
+    <div>
+        <h4 class="card-title">
+            add-product works!
+        </h4>
+    </div>
+    <form [formGroup]="productListForm">
+        <div class="row">
+            <label class="col-sm-2 col-form-label">Product</label>
+            <input type="text" formControlName="product" class="form-control col-sm-2">
+            <div class="errors" *ngIf="submitted && f.product.errors.required"> product is required</div>
+        </div>
+
+        <br>
+        <div class="row">
+            <label class="col-sm-2 col-form-label">Code</label>
+            <div class="radio col-sm-1">
+                <input formControlName="code" type="radio" id="yes" value="yes" class="form-control">
+                <label for="yes">YES</label>
+            </div>
+            <div class="radio col-sm-1">
+                <input formControlName="code" type="radio" id="no" value="no" class="form-control">
+                <label for="no">NO</label>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <label class="col-sm-2 col-form-label">Available Status</label>
+            <!-- <input type="text" formControlName="status" class="form-control col-sm-2"> -->
+            <select formControlName="status" class=" col-sm-2">
+            <option value="">--Select--</option>
+            <option value="instock">In Stock</option>
+            <option value="outstock">Out Stock</option>
+        </select>
+        </div>
+        <br>
+        <div class="row">
+            <label class="col-sm-2 col-form-label">Price</label>
+            <input type="text" formControlName="price" class="form-control col-sm-2">
+        </div>
+        <br>
+        <div class="row">
+            <label class="col-sm-2 col-form-label">Star Rating</label>
+            <input type="text" formControlName="rating" class="form-control col-sm-2">
+        </div>
+        <br>
+        <button class="btn btn-success" (click)="submit()">Submit</button>
+        <div *ngIf="submitted && this.productListForm.invalid">plz enter all the fields </div>
+    </form>
+
+</div>

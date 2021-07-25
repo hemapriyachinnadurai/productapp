@@ -1,0 +1,162 @@
+[{
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "soap",
+        "code": 200,
+        "available": "yes",
+        "price": 100,
+        "star_rating": 5
+    },
+    {
+        "product": "oil",
+        "code": 300,
+        "available": "no",
+        "price": 650,
+        "star_rating": 4
+    },
+    {
+        "product": "coconut",
+        "code": 400,
+        "available": "yes",
+        "price": 30,
+        "star_rating": 4
+    },
+    {
+        "product": "detergent",
+        "code": 500,
+        "available": "yes",
+        "price": 10,
+        "star_rating": 5
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    },
+    {
+        "product": "rice",
+        "code": 100,
+        "available": "yes",
+        "price": 1300,
+        "star_rating": 3
+    }
+]

@@ -1,0 +1,45 @@
+<div class="card">
+    <div class="col-xs-12">
+        <h4 class="card-title mt-4 ml-3">Product List </h4>
+    </div>
+    <div class="filter-container col-sm-12">
+        <div class="col-sm-6">
+            <label>Filter</label>
+            <input type="text" name="filterValue" [(ngModel)]="filterValue" (keyup)="filtermethod(filterValue)">
+        </div>
+        <div class="col-sm-6">
+            <button routerLink="/add-product">Add Product List</button>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table" *ngIf="productList.length > 0">
+            <thead>
+                <th scope="col" class="btn btn-primary" (click)="showImage()">{{isShow ? 'Hide' : 'Show'}} image</th>
+                <th scope="col">Product</th>
+                <th scope="col">Code</th>
+                <th scope="col">Available</th>
+                <th scope="col">Price</th>
+                <th scope="col">5 star rating</th>
+
+            </thead>
+            <tbody>
+                <tr scope="row" *ngFor="let item of productList | paginate : {itemsPerPage: 5, currentPage: page, totalItems: count}">
+                    <td>
+                        <img *ngIf="isShow" [src]="image">
+                    </td>
+                    <td>{{item.product}}</td>
+                    <td>{{item.code}}</td>
+                    <td>{{item.available}}</td>
+                    <td>{{item.price | currency}}</td>
+                    <td>
+                        <app-starComponent></app-starComponent>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="pagination">
+        <pagination-controls previousLabel="Prev" nextLabel="Next" responsive="true" (pageChange)="handlePageChange($event)"></pagination-controls>
+    </div>
+</div>
